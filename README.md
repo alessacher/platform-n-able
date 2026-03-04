@@ -12,9 +12,9 @@ Apache NimBLE is an open-source Bluetooth 5.1 stack (both Host & Controller) tha
 
 ```ini
 [env]
-platform = https://github.com/h2zero/platform-n-able.git@^1.0.0
+platform = https://github.com/h2zero/platform-n-able.git#latest
 framework = arduino
-lib_deps = h2zero/NimBLE-Arduino@^1.4.0
+lib_deps = h2zero/NimBLE-Arduino
 board = ...
 ...
 ```
@@ -31,6 +31,7 @@ board = ...
  * [Adafruit Feather nRF52840 Sense](https://www.adafruit.com/product/4516)
  * [Adafruit ItsyBitsy nRF52840 Express](https://www.adafruit.com/product/4481)
  * [Ebyte E104-BT5040U](https://www.ebyte.com/en/product-view-news.html?id=1185)
+ * [XIAO nRF52840 Sense](https://wiki.seeedstudio.com/XIAO_BLE/)
 
 ### nRF52833
  * [Generic nRF52833 MCU](https://www.nordicsemi.com/Products/nRF52833)

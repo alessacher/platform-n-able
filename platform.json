@@ -4,7 +4,7 @@
   "description": "Development platform for Arm BLE devices supported by the NimBLE stack",
   "homepage": "https://github.com/h2zero/platform-n-able",
   "license": "Apache-2.0",
-  "version": "1.1.0",
+  "version": "1.2.0",
   "keywords": [
     "dev-platform",
     "ARM",
@@ -19,7 +19,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/h2zero/platform-n-able.git"
+    "url": "https://github.com/h2zero/platform-n-able"
   },
   "frameworks": {
     "arduino": {
@@ -31,7 +31,7 @@
     "framework-n-able-arduino": {
       "type": "framework",
       "optional": false,
-      "version": "https://github.com/h2zero/n-able-Arduino.git"
+      "version": "https://github.com/h2zero/n-able-Arduino.git#latest"
     },
     "toolchain-gccarmnoneeabi": {
       "type": "toolchain",

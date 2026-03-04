@@ -2,6 +2,16 @@
 
 All notable changes to this project will be documented in this file.
 
+## [1.2.0] - 2026-03-04
+
+### Added
+- Monitor filter to decode stack traces.
+
+### Changed
+- Use C++20 by default and update compiler.
+- Update bootloader options; adafruit_s140_v6, adafruit_s140_v7, adafruit_serial, or none.
+- Set the correct default bootloader for boards that ship with a specific bootloader.
+
 ## [1.1.2] - 2025-09-05
 
 ### Added
